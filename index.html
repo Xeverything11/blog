@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Homepage - Our blog by Xeverything11</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Xeverything11/Codexify@0.10.0/codexify.css">
+    </head>
+    <body>
+        <header class="navbar position-fixed top-0 start-0 end-0 glass-50 dark-glass-950">
+            <nav class="container">
+                <a class="navbar-brand flex-col align-items-start" href="index.html">Our blog<br><span class="text-sm font-regular">by Xeverything11</span></a>
+                <div class="flex-fill">
+                    <dialog class="offcanvas offcanvas-phone" id="blogMenu">
+                        <div class="offcanvas-header">
+                            <h1 class="offcanvas-title">Menu</h1>
+                            <button class="btn btn-quiet btn-icon" data-c-dismiss="offcanvas" aria-label="Close"><i class="icon icon-close"></i></button>
+                        </div>
+                        <div class="offcanvas-body tablet-d-flex">
+                            <ul class="nav navbar-nav flex-col align-items-start tablet-flex-row tablet-align-items-center">
+                                <li class="nav-item"><a class="nav-link" href="random.html">Randomize</a></li>
+                            </ul>
+                        </div>
+                    </dialog>
+                </div>
+                <button class="btn btn-icon btn-quiet tablet-d-none" data-c-toggle="offcanvas" data-c-target="#blogMenu" aria-label="Open menu"><i class="icon icon-menu"></i></button>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="row">
+                <article class="card col-6 tablet-col-4 desktop-col-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Welcome to our blog!</h3>
+                        <p class="card-text">18 November 2026</p>
+                        <a class="btn btn-primary btn-progressive" href="posts/welcometoourblog.html">Read post</a>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer class="border-t">
+            <div class="container">
+                <p>&copy; 2026 Xeverything11. Our blog content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attrubution-ShareAlike 4.0 license</a>.</p>
+            </div>
+        </footer>
+        <script type="module" src="https://cdn.jsdelivr.net/gh/Xeverything11/Codexify@0.10.0/js/codexify.js"></script>
+    </body>
+</html>

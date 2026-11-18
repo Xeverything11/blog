@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to our blog! - Our blog by Xeverything11</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Xeverything11/Codexify@0.10.0/codexify.css">
+    </head>
+    <body>
+        <header class="navbar position-fixed top-0 start-0 end-0 glass-50 dark-glass-950">
+            <nav class="container">
+                <a class="navbar-brand flex-col align-items-start" href="../index.html">Our blog<br><span class="text-sm font-regular">by Xeverything11</span></a>
+                <div class="flex-fill">
+                    <dialog class="offcanvas offcanvas-phone" id="blogMenu">
+                        <div class="offcanvas-header">
+                            <h1 class="offcanvas-title">Menu</h1>
+                            <button class="btn btn-quiet btn-icon" data-c-dismiss="offcanvas" aria-label="Close"><i class="icon icon-close"></i></button>
+                        </div>
+                        <div class="offcanvas-body tablet-d-flex">
+                            <ul class="nav navbar-nav flex-col align-items-start tablet-flex-row tablet-align-items-center">
+                                <li class="nav-item"><a class="nav-link" href="../random.html">Randomize</a></li>
+                            </ul>
+                        </div>
+                    </dialog>
+                </div>
+                <button class="btn btn-icon btn-quiet tablet-d-none" data-c-toggle="offcanvas" data-c-target="#blogMenu" aria-label="Open menu"><i class="icon icon-menu"></i></button>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row" id="main">
+                <main class="col-fill tablet-col-8 desktop-col-9">
+                    <h1>Welcome to our blog!</h1>
+                    <p class="text-subtle">Created on November 18, 2026</p>
+                    <p class="text-justify">Exactly 4 years ago, I created my Wikimedia account, and during 2022 to 2024 (and still today to some extent), I have contributed to some Wikimedia wikis, such as Wikibooks, Wikisource and Wikimedia Commons. As of the time of writing, my Wikimedia account has over 27,000 edits (27,094 to be exact). Since 2025, I have been  contributing to wikis outside Wikimedia, such as wikiHow.</p>
+                    <img src="../images/wikimediaaccount.png" class="border rounded w-full mb-4">
+                    <p class="text-justify">To celebrate my 4th anniversary, I have created a blog which I am posting stuff there. By the way, this underlying framework for this blog is <a href="https://github.com/Xeverything11/Codexify">Codexify</a>, which I have been developing. Currently, the version is currently 0.10.0 at the time of writing, and I plan to release version 1.0 soon.</p>
+                </main>
+                <aside class="col-fill tablet-col-4 desktop-col-3">
+                    <h2 id="seealso">See also</h2>
+                    <div class="row">
+                        <article class="card col-6 tablet-col-fill">
+                            <div class="card-body">
+                                <h3 class="card-title">Welcome to our blog!</h3>
+                                <p class="card-text">November 18, 2026</p>
+                                <a class="btn btn-primary btn-progressive" href="welcometoourblog.html">Read post</a>
+                            </div>
+                        </article>
+                    </div>
+                </aside>
+            </div>
+        </div>
+        <footer class="border-t">
+            <div class="container">
+                <p>&copy; 2026 Xeverything11. Our blog content is licensed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attrubution-ShareAlike 4.0 license</a>.</p>
+            </div>
+        </footer>
+        <script type="module" src="https://cdn.jsdelivr.net/gh/Xeverything11/Codexify@0.10.0/js/codexify.js"></script>
+    </body>
+</html>
